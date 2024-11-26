@@ -1238,6 +1238,337 @@
 				)
 			)
 		)
+		(symbol "Relay:SANYOU_SRD_Form_C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SANYOU_SRD_Form_C"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Pole Relay SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*SPDT*SANYOU*SRD*Series*Form*C*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_C_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_C_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_C_1_1"
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 3.175 3.175) (xy 2.54 2.54) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1455,9 +1786,367 @@
 			)
 		)
 	)
+	(junction
+		(at 201.93 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72ac6e1a-6dea-4812-b7f3-9c4a1b604b18")
+	)
+	(junction
+		(at 163.83 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf269e2e-7846-42fa-9ae2-9965291737f5")
+	)
+	(junction
+		(at 201.93 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f423ca39-c0b9-458d-8d05-463eb0420f53")
+	)
+	(wire
+		(pts
+			(xy 240.03 69.85) (xy 251.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec5242e-fbd2-4e14-b062-889e5d57fde4")
+	)
+	(wire
+		(pts
+			(xy 163.83 45.72) (xy 163.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d61f45-4998-4fe3-b34e-7ad28dff608e")
+	)
+	(wire
+		(pts
+			(xy 212.09 45.72) (xy 212.09 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263bbf0f-4abd-4814-8bfd-c8a7e0def94d")
+	)
+	(wire
+		(pts
+			(xy 153.67 26.67) (xy 201.93 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3346b6-7264-4cc3-a90c-365ab4e637bd")
+	)
+	(wire
+		(pts
+			(xy 201.93 26.67) (xy 201.93 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386cad75-d3c8-48f6-8c18-94be9c69dd11")
+	)
+	(wire
+		(pts
+			(xy 138.43 21.59) (xy 209.55 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44dcbd54-12b0-4cc0-aefb-9fd702b9257b")
+	)
+	(wire
+		(pts
+			(xy 212.09 54.61) (xy 163.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcbd4be-0ac5-475f-8dcd-c1812b185207")
+	)
+	(wire
+		(pts
+			(xy 138.43 54.61) (xy 163.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c56266-4279-465c-b848-72e1dbebb76f")
+	)
+	(wire
+		(pts
+			(xy 201.93 26.67) (xy 240.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859cd6ec-c45c-4024-9caa-d0b540bfbca7")
+	)
+	(wire
+		(pts
+			(xy 240.03 26.67) (xy 240.03 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5b08a9-d320-4389-9373-79e024c7008a")
+	)
+	(wire
+		(pts
+			(xy 153.67 30.48) (xy 153.67 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b43eb74-6a64-46a2-b86c-9a75bc8dd7ad")
+	)
+	(wire
+		(pts
+			(xy 209.55 30.48) (xy 209.55 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add13efc-2bde-4828-abc2-a184e84b5817")
+	)
+	(wire
+		(pts
+			(xy 201.93 59.69) (xy 251.46 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61908e6-d446-4e0e-b900-05291dae58c0")
+	)
+	(wire
+		(pts
+			(xy 201.93 45.72) (xy 201.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a069d2-8140-4894-97f1-1bf4372d9ae6")
+	)
+	(wire
+		(pts
+			(xy 138.43 24.13) (xy 161.29 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d960398f-e16a-4b65-8455-c9fc7613ea08")
+	)
+	(wire
+		(pts
+			(xy 153.67 59.69) (xy 201.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a9be95-73e2-474b-b458-ca1a8c9f9c7a")
+	)
+	(wire
+		(pts
+			(xy 161.29 30.48) (xy 161.29 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdca040-eaf0-4a72-8fc2-1905cc57fa0b")
+	)
+	(wire
+		(pts
+			(xy 153.67 45.72) (xy 153.67 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f187dfa0-3535-47f8-8575-853fe0d04615")
+	)
+	(symbol
+		(lib_id "Relay:SANYOU_SRD_Form_C")
+		(at 158.75 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16a575bc-ea47-4111-8cd7-0a46dd4ee64e")
+		(property "Reference" "K1"
+			(at 170.18 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SANYOU_SRD_Form_C"
+			(at 170.18 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+			(at 170.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(at 158.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+			(at 158.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a35e08e7-15a3-4f67-b682-3775a9751e03")
+		)
+		(pin "1"
+			(uuid "d497b401-1c4d-402b-9582-2dfb236f3728")
+		)
+		(pin "5"
+			(uuid "f302b11e-bff4-4a0f-aac7-516de6614eba")
+		)
+		(pin "3"
+			(uuid "5c068a82-6082-458b-805d-00ba9acaa635")
+		)
+		(pin "4"
+			(uuid "1c2dc3df-fbe7-4772-908c-06216580787e")
+		)
+		(instances
+			(project ""
+				(path "/9926b4be-1e6d-4871-9227-a8665edb2f6a"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:SANYOU_SRD_Form_C")
+		(at 207.01 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88694c24-be41-4684-8dcf-09da236cc229")
+		(property "Reference" "K2"
+			(at 218.44 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SANYOU_SRD_Form_C"
+			(at 218.44 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+			(at 218.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e931dff1-3b9a-4adb-bc3d-d369855e1028")
+		)
+		(pin "1"
+			(uuid "9f218b22-e9e8-409b-a6af-b3a933ac70f9")
+		)
+		(pin "5"
+			(uuid "9782bf8f-0f54-4e2f-ae0a-2fa2408f3083")
+		)
+		(pin "3"
+			(uuid "b29c766c-88a0-40c7-89ff-edc400a63375")
+		)
+		(pin "4"
+			(uuid "429b47dc-ac9a-4d1c-b180-4bc3d1f5b223")
+		)
+		(instances
+			(project "DigitalAuto"
+				(path "/9926b4be-1e6d-4871-9227-a8665edb2f6a"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 69.85 0)
+		(at 251.46 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1466,7 +2155,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cda9cdd-e375-4583-8c9f-1dfdbf57f24b")
 		(property "Reference" "#PWR02"
-			(at 242.57 76.2 0)
+			(at 251.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +2164,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 74.93 0)
+			(at 251.46 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +2172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 69.85 0)
+			(at 251.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +2181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 69.85 0)
+			(at 251.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +2190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 69.85 0)
+			(at 251.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +2212,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 242.57 59.69 0)
+		(at 251.46 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1532,7 +2221,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3682077-dcf5-492e-8bce-04e5c2f327c0")
 		(property "Reference" "#PWR01"
-			(at 242.57 63.5 0)
+			(at 251.46 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +2230,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 242.57 54.61 0)
+			(at 251.46 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +2238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 59.69 0)
+			(at 251.46 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 59.69 0)
+			(at 251.46 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +2256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 242.57 59.69 0)
+			(at 251.46 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +2278,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 242.57 45.72 0)
+		(at 265.43 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1598,7 +2287,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5a0d9fd-0ee7-4308-b38f-4ac0cfe087e7")
 		(property "Reference" "BT1"
-			(at 246.38 42.6084 0)
+			(at 269.24 17.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +2296,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 246.38 45.1484 0)
+			(at 269.24 19.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +2305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 44.196 90)
+			(at 265.43 18.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +2314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 44.196 90)
+			(at 265.43 18.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +2323,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 242.57 45.72 0)
+			(at 265.43 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
