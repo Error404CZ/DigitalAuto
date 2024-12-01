@@ -1380,337 +1380,6 @@
 				)
 			)
 		)
-		(symbol "Relay:SANYOU_SRD_Form_C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SANYOU_SRD_Form_C"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-				(at 11.43 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Single Pole Relay SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Relay*SPDT*SANYOU*SRD*Series*Form*C*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SANYOU_SRD_Form_C_0_0"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SANYOU_SRD_Form_C_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -1.905) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SANYOU_SRD_Form_C_1_1"
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 3.175 3.175) (xy 2.54 2.54) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "custom:ISO10487_Connector"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2730,6 +2399,139 @@
 				)
 			)
 		)
+		(symbol "custom:tiny_rtc_i2c"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "tiny_rtc_i2c"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "tiny_rtc_i2c_1_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "5V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 -5.08 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2875,16 +2677,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 100.33) (xy 143.51 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e965837-ebda-4476-811b-5730d75d087c")
-	)
-	(wire
-		(pts
 			(xy 124.46 168.91) (xy 114.3 168.91)
 		)
 		(stroke
@@ -2902,16 +2694,6 @@
 			(type default)
 		)
 		(uuid "144ce54a-82bf-4be7-9d7a-6574b93fb765")
-	)
-	(wire
-		(pts
-			(xy 184.15 83.82) (xy 184.15 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17830942-0b99-4c45-90d4-a8c7330d843d")
 	)
 	(wire
 		(pts
@@ -2945,16 +2727,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 60.96) (xy 106.68 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c9fd63d-4775-4ae4-8a1a-4a3bd3573965")
-	)
-	(wire
-		(pts
 			(xy 107.95 31.75) (xy 107.95 34.29)
 		)
 		(stroke
@@ -2975,33 +2747,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 58.42) (xy 106.68 58.42)
+			(xy 125.73 20.32) (xy 125.73 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3627d50c-cf49-4550-a60f-75fe5ff92c3d")
+		(uuid "444133ff-3f0a-4e92-b4c6-f58f869de0c4")
 	)
 	(wire
 		(pts
-			(xy 186.69 100.33) (xy 186.69 99.06)
+			(xy 123.19 48.26) (xy 123.19 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "461c4283-c151-4540-84dc-8462c8c86f8d")
-	)
-	(wire
-		(pts
-			(xy 176.53 100.33) (xy 176.53 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "472d8956-66ac-413f-9de0-833e5504250a")
+		(uuid "4bfe7845-bd13-4ecb-9c52-2eb8675f541c")
 	)
 	(wire
 		(pts
@@ -3025,6 +2787,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 40.64) (xy 43.18 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577d3705-1fb4-49a2-b52d-43b81a5e0543")
+	)
+	(wire
+		(pts
 			(xy 240.03 58.42) (xy 242.57 58.42)
 		)
 		(stroke
@@ -3032,6 +2804,26 @@
 			(type default)
 		)
 		(uuid "5ba3e608-fa29-47eb-ae99-9a3918ad90f4")
+	)
+	(wire
+		(pts
+			(xy 123.19 22.86) (xy 45.72 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1d0537-bab9-4470-8aa1-704f965fbfc7")
+	)
+	(wire
+		(pts
+			(xy 43.18 20.32) (xy 125.73 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f17211f-aea2-46b2-b254-3f7edd4cfc3c")
 	)
 	(wire
 		(pts
@@ -3085,6 +2877,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 55.88) (xy 140.97 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a22ea75-a0d4-40db-9326-bad83ad74a6a")
+	)
+	(wire
+		(pts
 			(xy 69.85 173.99) (xy 71.12 173.99)
 		)
 		(stroke
@@ -3135,16 +2937,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 83.82) (xy 140.97 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85d67c0c-c1c9-490c-aff8-c27720e50c2c")
-	)
-	(wire
-		(pts
 			(xy 54.61 96.52) (xy 54.61 90.17)
 		)
 		(stroke
@@ -3165,7 +2957,17 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 125.73) (xy 247.65 125.73)
+			(xy 125.73 50.8) (xy 140.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902e2f7e-5efc-42d1-9516-5cdc180b5638")
+	)
+	(wire
+		(pts
+			(xy 190.5 138.43) (xy 189.23 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3182,16 +2984,6 @@
 			(type default)
 		)
 		(uuid "a0e7e679-01d0-42d9-9ff0-c18a3509638c")
-	)
-	(wire
-		(pts
-			(xy 133.35 100.33) (xy 133.35 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5df8b32-4a63-43d1-baa7-4d0ed4ae3b8f")
 	)
 	(wire
 		(pts
@@ -3245,6 +3037,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 38.1) (xy 55.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2050b7-2ee6-4e59-a444-d7349b63f978")
+	)
+	(wire
+		(pts
 			(xy 240.03 66.04) (xy 242.57 66.04)
 		)
 		(stroke
@@ -3265,7 +3067,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 125.73) (xy 229.87 125.73)
+			(xy 170.18 138.43) (xy 171.45 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3365,6 +3167,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 22.86) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01c0bf1-fbeb-4640-85bd-6649a41057a7")
+	)
+	(wire
+		(pts
 			(xy 107.95 165.1) (xy 120.65 165.1)
 		)
 		(stroke
@@ -3372,6 +3184,26 @@
 			(type default)
 		)
 		(uuid "f18d6a07-695c-49c5-977e-505502371cb4")
+	)
+	(wire
+		(pts
+			(xy 140.97 48.26) (xy 123.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc15a2ed-291f-4986-a53c-d09b536c08d9")
+	)
+	(wire
+		(pts
+			(xy 43.18 40.64) (xy 43.18 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5a0c7d-f91b-4d08-96dc-1016fa42d6dc")
 	)
 	(label "Left_front_speaker_+"
 		(at 69.85 166.37 180)
@@ -3386,6 +3218,7 @@
 	)
 	(label "Right_front_speaker_-"
 		(at 240.03 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3407,6 +3240,7 @@
 	)
 	(label "Right_front_speaker_+"
 		(at 240.03 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3437,19 +3271,9 @@
 		)
 		(uuid "3b6e1acc-bd41-408e-8f36-f97ae9b81652")
 	)
-	(label "ignition_12V+"
-		(at 133.35 100.33 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "473f2fa4-03ff-414d-a550-82e74c79f007")
-	)
 	(label "5V+"
-		(at 228.6 125.73 180)
+		(at 170.18 138.43 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3460,6 +3284,7 @@
 	)
 	(label "Right_rear_speaker_+"
 		(at 240.03 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3470,6 +3295,7 @@
 	)
 	(label "12V+"
 		(at 240.03 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3502,6 +3328,7 @@
 	)
 	(label "Left_rear_speaker_+"
 		(at 240.03 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3512,6 +3339,7 @@
 	)
 	(label "Right_rear_speaker_-"
 		(at 240.03 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3521,7 +3349,7 @@
 		(uuid "92e1842d-a327-4be7-be65-511e6d54c15d")
 	)
 	(label "5V+"
-		(at 143.51 100.33 270)
+		(at 139.7 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3529,7 +3357,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "93f29c3d-5911-4972-b607-231dd0952df5")
+		(uuid "9761e037-1038-4c83-9fb3-af46caf86e9f")
 	)
 	(label "5V+"
 		(at 109.22 31.75 0)
@@ -3553,19 +3381,9 @@
 		)
 		(uuid "98adbf9c-d1df-418d-89f4-3f8f7b945d37")
 	)
-	(label "ignition_12V+"
-		(at 176.53 100.33 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9b29a924-69bc-443b-90c0-bb40a9f52c1a")
-	)
 	(label "Left_front_speaker_-"
 		(at 240.03 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3587,16 +3405,6 @@
 	)
 	(label "Left_rear_speaker_-"
 		(at 240.03 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd26bf79-2bd3-42ec-b2d1-edb704cc0249")
-	)
-	(label "5V+"
-		(at 186.69 100.33 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3604,7 +3412,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d1424513-2fc0-4a4d-8f9e-b86029513703")
+		(uuid "bd26bf79-2bd3-42ec-b2d1-edb704cc0249")
 	)
 	(label "Left_rear_speaker_-"
 		(at 69.85 171.45 180)
@@ -3619,6 +3427,7 @@
 	)
 	(label "ignition_12V+"
 		(at 240.03 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3627,8 +3436,8 @@
 		)
 		(uuid "e0b899af-4044-4940-81cd-46efb5bea438")
 	)
-	(label "12V+"
-		(at 248.92 125.73 0)
+	(label "ignition_12V+"
+		(at 190.5 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3640,6 +3449,7 @@
 	)
 	(label "Left_front_speaker_+"
 		(at 240.03 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3732,152 +3542,6 @@
 			(project ""
 				(path "/9926b4be-1e6d-4871-9227-a8665edb2f6a"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 138.43 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16a575bc-ea47-4111-8cd7-0a46dd4ee64e")
-		(property "Reference" "K1"
-			(at 149.86 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD_Form_C"
-			(at 149.86 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 149.86 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a35e08e7-15a3-4f67-b682-3775a9751e03")
-		)
-		(pin "1"
-			(uuid "d497b401-1c4d-402b-9582-2dfb236f3728")
-		)
-		(pin "5"
-			(uuid "f302b11e-bff4-4a0f-aac7-516de6614eba")
-		)
-		(pin "3"
-			(uuid "5c068a82-6082-458b-805d-00ba9acaa635")
-		)
-		(pin "4"
-			(uuid "1c2dc3df-fbe7-4772-908c-06216580787e")
-		)
-		(instances
-			(project ""
-				(path "/9926b4be-1e6d-4871-9227-a8665edb2f6a"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f614f01-4fed-4a21-883b-e7dc42224449")
-		(property "Reference" "#PWR02"
-			(at 176.53 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "920536ea-9225-41f3-9e57-1403ce87f241")
-		)
-		(instances
-			(project ""
-				(path "/9926b4be-1e6d-4871-9227-a8665edb2f6a"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4070,34 +3734,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 83.82 180)
+		(lib_id "custom:tiny_rtc_i2c")
+		(at 147.32 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6049c870-c535-423b-ae9e-12d88c326478")
-		(property "Reference" "#PWR01"
-			(at 133.35 77.47 0)
+		(uuid "7f774ab8-7318-4261-b504-f653d77a9b17")
+		(property "Reference" "tiny_rtc_i2c1"
+			(at 152.4 51.4349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 133.35 78.74 0)
+		(property "Value" "~"
+			(at 152.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 83.82 0)
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +3771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 83.82 0)
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,8 +3779,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 83.82 0)
+		(property "Description" ""
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,93 +3788,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e7885513-8370-4ace-b6b9-7ca59c571620")
+		(pin ""
+			(uuid "a0ac6c5e-8f43-4b3a-ab44-d6c2711951e3")
+		)
+		(pin ""
+			(uuid "0fb156ee-12b5-4f5e-add8-f420e535362a")
+		)
+		(pin ""
+			(uuid "21260206-3005-48f5-ab7f-d54f07eb2350")
+		)
+		(pin ""
+			(uuid "688e303a-9948-4b36-b135-659983bcff04")
 		)
 		(instances
 			(project ""
 				(path "/9926b4be-1e6d-4871-9227-a8665edb2f6a"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 181.61 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88694c24-be41-4684-8dcf-09da236cc229")
-		(property "Reference" "K2"
-			(at 193.04 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD_Form_C"
-			(at 193.04 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 181.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 181.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e931dff1-3b9a-4adb-bc3d-d369855e1028")
-		)
-		(pin "1"
-			(uuid "9f218b22-e9e8-409b-a6af-b3a933ac70f9")
-		)
-		(pin "5"
-			(uuid "9782bf8f-0f54-4e2f-ae0a-2fa2408f3083")
-		)
-		(pin "3"
-			(uuid "b29c766c-88a0-40c7-89ff-edc400a63375")
-		)
-		(pin "4"
-			(uuid "429b47dc-ac9a-4d1c-b180-4bc3d1f5b223")
-		)
-		(instances
-			(project "DigitalAuto"
-				(path "/9926b4be-1e6d-4871-9227-a8665edb2f6a"
-					(reference "K2")
+					(reference "tiny_rtc_i2c1")
 					(unit 1)
 				)
 			)
@@ -4350,33 +3944,35 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:Step_Down_Buck_Converter_Small_5-20V_To_1.2-35V,_Max2A")
-		(at 238.76 127 0)
+		(lib_id "power:GND")
+		(at 140.97 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ce53405b-0241-43aa-ab3f-3f8e49dbdfda")
-		(property "Reference" "Step_Down_Buck_Converter_Small_5-20V_To_1.2-35V,_Max2A1"
-			(at 238.76 119.38 0)
+		(uuid "b45d3561-c798-41ff-b939-89bc262443d1")
+		(property "Reference" "#PWR01"
+			(at 134.62 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 238.76 121.92 0)
+		(property "Value" "GND"
+			(at 137.16 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 127 0)
+			(at 140.97 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +3981,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 127 0)
+			(at 140.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c0ddc77-b5ba-4758-a1c8-3f5f80b532bf")
+		)
+		(instances
+			(project ""
+				(path "/9926b4be-1e6d-4871-9227-a8665edb2f6a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:Step_Down_Buck_Converter_Small_5-20V_To_1.2-35V,_Max2A")
+		(at 180.34 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce53405b-0241-43aa-ab3f-3f8e49dbdfda")
+		(property "Reference" "Step_Down_Buck_Converter_Small_5-20V_To_1.2-35V,_Max2A1"
+			(at 180.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4055,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 127 0)
+			(at 180.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +4152,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 130.81 90)
+		(at 189.23 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4500,7 +4161,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3367317-8ef2-446c-88f5-2d6472dd48c8")
 		(property "Reference" "#PWR05"
-			(at 254 130.81 0)
+			(at 195.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +4170,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 130.8099 90)
+			(at 193.04 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 130.81 0)
+			(at 189.23 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 130.81 0)
+			(at 189.23 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4197,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 130.81 0)
+			(at 189.23 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +4686,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 130.81 270)
+		(at 171.45 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5034,7 +4695,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8fb7239-b9ab-4b84-b843-69e948ce549b")
 		(property "Reference" "#PWR06"
-			(at 223.52 130.81 0)
+			(at 165.1 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,7 +4704,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 130.8099 90)
+			(at 167.64 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5052,7 +4713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 130.81 0)
+			(at 171.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +4722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 130.81 0)
+			(at 171.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +4731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 130.81 0)
+			(at 171.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
