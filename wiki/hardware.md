@@ -9,12 +9,12 @@ Zapojení jsem vytvořil na **PCB prototype board**, což umožnilo flexibilní 
 #### Case  
 Konstrukce krytu pro tento projekt byla realizována pomocí **3D tiskárny**, přičemž finální produkt je vytištěn z **PETG filamentu**. Tento materiál byl zvolen pro svou odolnost a stabilitu. Kryt je navržen tak, aby byl kompatibilní s **1 DIN slotem** automobilu, což je standardní velikost pro autorádia. Modely pro tisk jsou obsaženy ve složce **"Models"**, přičemž je možné, že bude nutné provést drobné úpravy pro konkrétní model automobilu.
 
+![photo1](https://github.com/Error404CZ/DigitalAuto/blob/main/wiki/pictures/photo1.jpg?raw=true) 
 ---
 
 ### English
 
 #### Circuit Design  
-![diagram](https://github.com/Error404CZ/DigitalAuto/blob/main/wiki/pictures/diagram_v2.jpg?raw=true)
 The circuit design was created on a **PCB prototype board**, allowing for flexible prototyping and testing of electrical connections. As shown in the attached diagram, all components are interconnected according to the specifications needed for the system to function correctly.
 
 #### Case  
