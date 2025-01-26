@@ -11,11 +11,11 @@ V této sekci jsou uvedeny ukázky hardwarové i softwarové části projektu. O
 ![3D model case](https://github.com/Error404CZ/DigitalAuto/blob/main/Models/case.PNG?raw=true)  
 *3D model pouzdra autorádia.*  
 
-![finised project](https://github.com/Error404CZ/DigitalAuto/blob/main/wiki/pictures/picture2.jpg?raw=true)  
+![finised project](https://github.com/Error404CZ/DigitalAuto/blob/main/wiki/pictures/photo2.jpg?raw=true)  
 *Hotový projekt* 
 
 #### Softwarová část  
-![Nastavení crankshaft-ng](https://github.com/Error404CZ/DigitalAuto/blob/main/wiki/pictures/picture3.jpg?raw=true)  
+![Nastavení crankshaft-ng](https://github.com/Error404CZ/DigitalAuto/blob/main/wiki/pictures/photo3.jpg?raw=true)  
 *Ukázka konfigurace systému crankshaft-ng.*  
 
 ---
@@ -31,9 +31,9 @@ This section contains examples of the hardware and software aspects of the proje
 ![3D model of the case](https://github.com/Error404CZ/DigitalAuto/blob/main/Models/case.PNG?raw=true)  
 *3D model of the car radio case.*  
 
-![finised project](https://github.com/Error404CZ/DigitalAuto/blob/main/wiki/pictures/picture2.jpg?raw=true)  
+![finised project](https://github.com/Error404CZ/DigitalAuto/blob/main/wiki/pictures/photo2.jpg?raw=true)  
 *Finised project* 
 
 #### Software section  
-![Crankshaft-ng configuration](https://github.com/Error404CZ/DigitalAuto/blob/main/wiki/pictures/picture3.jpg?raw=true)  
+![Crankshaft-ng configuration](https://github.com/Error404CZ/DigitalAuto/blob/main/wiki/pictures/photo3.jpg?raw=true)  
 *Example of crankshaft-ng system configuration.*  
